@@ -1,0 +1,51 @@
+
+<style>
+  html {
+    font-size: 8px;
+    /*10px = 1rem과 동일
+    56px = 5.6rem과 동일
+    
+    반응형 사이트를 구현할때는 rem과 같은 상대단위를 사용해야함
+    실무에서는 폰트 사이즈를 px단위로 사용하지않고 rem단위로 사용함*/
+  }
+
+  h1 {
+    font-size: 15rem;
+  }
+
+  h2 {
+    font-size: 6.2rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+  }
+
+
+  .p1 {
+    font-size: 3.7rem;
+  }
+
+  .p2 {
+    font-size: 3.2rem;
+  }
+
+  .p3 {
+    font-size : 2.5rem
+  }
+  
+</style>
+</head>
+
+<body>
+<h1>폰트테스트</h1>
+<h2>폰트테스트</h2>
+<h3>폰트테스트</h3>
+
+
+<p class="p1">여기는 문단태그 p1 입니다.</p>
+<p class="p2">여기는 문단태그 p2 입니다.</p>
+<p class="p2">여기는 문단태그 p3 입니다.</p>
+</body>
+
+</html>
